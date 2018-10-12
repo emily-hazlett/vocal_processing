@@ -14,7 +14,7 @@ button = questdlg('Do you want to resume sorting a folder?', 'Session', 'New Ses
 switch button
     case 'New Session'
         session = 1;
-    case 'Resume Folder';
+    case 'Resume Folder'
         session = 0;
 end
 %-----------------------------------------------------------------------------------------------------

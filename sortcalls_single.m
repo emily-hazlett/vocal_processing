@@ -14,7 +14,7 @@ button = questdlg('Do you want to resume sorting a folder?', 'Session', 'New Ses
 switch button
     case 'New Session'
         session = 1;
-    case 'Resume Folder';
+    case 'Resume Folder'
         session = 0;
 end
 %-----------------------------------------------------------------------------------------------------
@@ -131,7 +131,7 @@ dlg_title = 'Sort - Enter Y or N';
 num_lines = 1;
 defAns = {'n'};
 accept = {'yes', '1', 'copy'};
-for n = begin:m;  
+for n = begin:m
     % Open file in Avisoft
     filename = fileNames(n,:);
     winopen(filename);

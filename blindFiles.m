@@ -8,13 +8,13 @@
 %% User edited information
 
 % Name of folder containing files to be renamed
-folder = 'C:\Data Processing\Vocalization Files to be Renamed';
+folder = 'C:\Users\emily\Desktop\to blind\';
 
 % Base of blinded name, should contain information about the experiment
-blindedbase = 'TinnitusMicePrePostExposureSummer2017';
+blindedbase = 'TinnitusMiceBehaviorSummer2018';
 
 % Type of file to be moved
-filetype = '.wav';
+filetype = '.ddf';
 
 %% Find files
 cd(folder)
